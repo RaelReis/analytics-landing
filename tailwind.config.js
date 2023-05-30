@@ -16,9 +16,9 @@ export default {
     },
     extend: {
       backgroundImage: {
-        hero: "url(src/assets/background-hero.png)",
-        "lg-hero-image": "url(src/assets/lg-background-hero.png)",
-        footer: "url(src/assets/background-footer.png)",
+        hero: "url(/src/assets/background-hero.png)",
+        "lg-hero-image": "url(/src/assets/lg-background-hero.png)",
+        footer: "url(/src/assets/background-footer.png)",
       },
     },
   },
