@@ -12,7 +12,7 @@ export function Features() {
       <div className="my-10 flex flex-col md:flex-row md:gap-x-4 gap-y-9">
         <div className="flex md:flex-col md:items-center md:text-center gap-x-7">
           <div className="min-w-[60px]">
-            <img src="src/assets/feature-1.svg" alt="" />
+            <img src="/src/assets/feature-1.svg" alt="" />
           </div>
           <div className="flex flex-col">
             <h3 className="md:py-4 font-bold text-base text-blue-950">Monitoring 24/7</h3>
@@ -24,7 +24,7 @@ export function Features() {
         </div>
         <div className="flex md:flex-col md:items-center md:text-center gap-x-7">
           <div className="min-w-[60px]">
-            <img src="src/assets/feature-2.svg" alt="" />
+            <img src="/src/assets/feature-2.svg" alt="" />
           </div>
           <div className="flex flex-col">
             <h3 className="md:py-4 font-bold text-base text-blue-950">Widget System</h3>
@@ -36,7 +36,7 @@ export function Features() {
         </div>
         <div className="flex md:flex-col md:items-center md:text-center gap-x-7">
           <div className="min-w-[60px]">
-            <img src="src/assets/feature-3.svg" alt="" />
+            <img src="/src/assets/feature-3.svg" alt="" />
           </div>
           <div className="flex flex-col">
             <h3 className="md:py-4 font-bold text-base text-blue-950">Best Performance</h3>

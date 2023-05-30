@@ -12,7 +12,7 @@ export function Content() {
         </div>
 
         <div className="flex-1 rounded-3xl shadow-xl">
-          <img src="src/assets/content-1.png" alt="content-1" />
+          <img src="/src/assets/content-1.png" alt="content-1" />
         </div>
       </div>
 
@@ -29,7 +29,7 @@ export function Content() {
         </div>
 
         <div className="flex-1 rounded-3xl shadow-xl md:order-first">
-          <img src="src/assets/content-2.png" alt="content-1" />
+          <img src="/src/assets/content-2.png" alt="content-1" />
         </div>
       </div>
 
@@ -44,7 +44,7 @@ export function Content() {
         </div>
 
         <div className="flex-1 rounded-3xl shadow-xl">
-          <img src="src/assets/content-3.png" alt="content-1" />
+          <img src="/src/assets/content-3.png" alt="content-1" />
         </div>
       </div>
     </div>
