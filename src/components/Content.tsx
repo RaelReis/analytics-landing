@@ -1,3 +1,7 @@
+import contentOne from "../assets/content-1.png";
+import contentTwo from "../assets/content-2.png";
+import contentThree from "../assets/content-3.png";
+
 export function Content() {
   return (
     <div className="mt-16 container flex flex-col gap-y-14">
@@ -12,7 +16,7 @@ export function Content() {
         </div>
 
         <div className="flex-1 rounded-3xl shadow-xl">
-          <img src="/src/assets/content-1.png" alt="content-1" />
+          <img src={contentOne} alt="content-1" />
         </div>
       </div>
 
@@ -29,7 +33,7 @@ export function Content() {
         </div>
 
         <div className="flex-1 rounded-3xl shadow-xl md:order-first">
-          <img src="/src/assets/content-2.png" alt="content-1" />
+          <img src={contentTwo} alt="content-1" />
         </div>
       </div>
 
@@ -44,7 +48,7 @@ export function Content() {
         </div>
 
         <div className="flex-1 rounded-3xl shadow-xl">
-          <img src="/src/assets/content-3.png" alt="content-1" />
+          <img src={contentThree} alt="content-1" />
         </div>
       </div>
     </div>
